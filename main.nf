@@ -1,6 +1,5 @@
 #!/usr/bin/env nextflow
 
-#nextflow.enable.dsl=2
 
 include { preproc } from './nf/preproc'
 include { typing } from './nf/typing'
